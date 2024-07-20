@@ -69,13 +69,13 @@ h2 strong {
     }
 
     h2 {
-        font-size: 12px
+        font-size: 20px;
     }
 }
 
 @media (max-width: 400px) {
     .clock span {
-        font-size: 40px;
+        font-size: 60px;
     }
 
     .clock {
@@ -83,6 +83,6 @@ h2 strong {
     }
 
     h2 {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
