@@ -1,0 +1,47 @@
+:root {
+    --color-dark: #000;
+    --color-white:#fff;
+    --color-light: #ababab;
+    --color-purple: #5d15a5;
+}
+
+body {
+    background:white;
+    color: var(--color-light);
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.clock {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.clock span {
+    font-size: 150px;
+    color: var(--color-purple)
+}
+
+.clock span:not(:last-child):after {
+    content: ":";
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #000;
+}
+
+h2 strong {
+    color: var(--color-purple);
+}
