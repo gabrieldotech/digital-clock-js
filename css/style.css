@@ -2,12 +2,11 @@
     --color-dark: #000;
     --color-white:#fff;
     --color-light: #ababab;
-    --color-purple: #5d15a5;
+    --color-purple: #5a77d6;
 }
 
 body {
-    background:white;
-    color: var(--color-light);
+    background: var(--color-dark);
     font-family: Poppins;
     margin: 0;
     padding: 0;
@@ -26,11 +25,11 @@ body {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    color: var(--color-light);
 }
 
 .clock span {
     font-size: 150px;
-    color: var(--color-purple)
 }
 
 .clock span:not(:last-child):after {
@@ -39,9 +38,44 @@ body {
 }
 
 h2 {
-    color: #000;
+    color: var(--color-light);
+    margin-top: 30px;
 }
 
 h2 strong {
     color: var(--color-purple);
+}
+
+#date {
+    color: var(--color-light);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#icon {
+    color: rgb(191, 59, 196);
+}
+
+@media (max-width: 576px) {
+    .clock span {
+        font-size: 60px;
+    }
+
+    .clock {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .clock span {
+        font-size: 40px;
+    }
+
+    .clock {
+        gap: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
 }
