@@ -41,7 +41,7 @@ body {
 
 .clock {
     display: flex;
-    gap: 50px;
+    gap: 25px;
     flex-wrap: wrap;
     color: var(--color-light);
 }
@@ -52,7 +52,8 @@ body {
 
 .clock span:not(:last-child):after {
     content: ":";
-    margin-bottom: 25px;
+    text-align: center;
+    margin-left: 30px;
 }
 
 h2 {
