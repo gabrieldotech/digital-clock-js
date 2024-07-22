@@ -80,7 +80,7 @@ h2 strong {
     }
 
     .clock {
-        gap: 15px;
+        gap: 10px;
     }
 
     #date {
@@ -95,6 +95,13 @@ h2 strong {
 @media (max-width: 400px) {
     .clock span {
         font-size: 60px;
+        margin-left: 2px;
+    }
+
+    .clock span:not(:last-child):after {
+        content: ":";
+        text-align: center;
+        margin-left: 20px;
     }
 
     .clock {
