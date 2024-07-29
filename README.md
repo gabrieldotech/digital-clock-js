@@ -16,7 +16,7 @@ Um projeto simples de relógio digital que exibe a hora e a data baseada no fuso
 
 ## Como Usar
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-repositorio.git](https://github.com/gabrieldotech/digital-clock-js.git`
+1. Clone o repositório: `git clone https://github.com/gabrieldotech/digital-clock-js.git`
 2. Abra o arquivo `index.html` no seu navegador web.
 
 ## Personalização
