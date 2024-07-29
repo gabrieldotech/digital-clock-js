@@ -7,7 +7,7 @@
 
 body {
     background: var(--color-dark);
-    font-family: Orbitron, sans-serif;
+    font-family: Poppins, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -44,6 +44,7 @@ body {
     gap: 25px;
     flex-wrap: wrap;
     color: var(--color-light);
+    font-family: Orbitron;    
 }
 
 .clock span {
